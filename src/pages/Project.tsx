@@ -8,6 +8,7 @@ import {
 	LuCheck,
 	LuClock,
 	LuCreditCard,
+	LuFolderX,
 	LuLoader,
 	LuMapPin,
 	LuMessageSquare,
@@ -731,6 +732,24 @@ export default function Project(): ReactNode {
 								/>
 							</div>
 						</div>
+					</div>
+				</div>
+			)}
+
+			{!projectsController.include(id as string) && (
+				<div className="flex w-full p-4 h-[80dvh] items-center justify-center">
+					<div className="glass rounded-2xl p-10 flex flex-col items-center">
+						<LuFolderX className="text-4xl mb-4" />
+						<p className="text-sm max-w-[400px] text-center">
+							The project you’re trying to access may have been deleted or
+							doesn’t exist.
+						</p>
+						<Link
+							to={"/projects"}
+							className="mt-2 text-sm px-4 py-1 rounded-full bg-white text-gray-900"
+						>
+							Back to Projects
+						</Link>
 					</div>
 				</div>
 			)}

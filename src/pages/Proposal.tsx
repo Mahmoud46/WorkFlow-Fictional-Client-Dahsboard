@@ -21,8 +21,13 @@ import {
 import { FileIcon } from "../utils/ActivityIcon";
 
 export default function Proposal(): ReactNode {
-	const { proposalsController, freelancersController, projectsController } =
-		useContext(Context) as IContext;
+	const {
+		proposalsController,
+		freelancersController,
+		projectsController,
+		setChatParticipantId,
+		setIsChatOpen,
+	} = useContext(Context) as IContext;
 	const { id } = useParams();
 	return (
 		<div className="min-w-[300px] w-[90%] left-[100px] h-[80dvh] top-30 fixed flex items-start justify-center z-20">
@@ -176,7 +181,16 @@ export default function Proposal(): ReactNode {
 									<LuUser />
 									<span>Profile</span>
 								</Link>
-								<button className="flex items-center gap-1 p-1 rounded-full overflow-hidden pl-2 pr-3 py-0.5 cursor-pointer bg-white text-gray-950">
+								<button
+									className="flex items-center gap-1 p-1 rounded-full overflow-hidden pl-2 pr-3 py-0.5 cursor-pointer bg-white text-gray-950"
+									onClick={() => {
+										setChatParticipantId(
+											proposalsController.getProposal(id as string)
+												.freelancer_id
+										);
+										setIsChatOpen((prev) => (prev ? prev : !prev));
+									}}
+								>
 									<LuMessageSquare />
 									<span>Chat</span>
 								</button>
