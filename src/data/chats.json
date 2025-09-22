@@ -1,0 +1,152 @@
+[
+	{
+		"chat_id": "chat001",
+		"project_id": "prj001",
+		"participants": ["client123", "frlZ8pQk1"],
+		"created_at": "2025-05-01T09:00:00Z",
+		"updated_at": "2025-05-27T18:30:00Z",
+		"is_group": false,
+		"messages": [
+			{
+				"id": "msg001",
+				"chat_id": "chat001",
+				"sender_id": "client123",
+				"content": "Hi Alice, you’ll be leading the frontend milestone. Can you confirm availability?",
+				"type": "text",
+				"created_at": "2025-05-01T09:05:00Z",
+				"is_read": true,
+				"milestone_id": "ms001"
+			},
+			{
+				"id": "msg002",
+				"chat_id": "chat001",
+				"sender_id": "frlZ8pQk1",
+				"content": "Yes, I’m ready to start with React setup this week.",
+				"type": "text",
+				"created_at": "2025-05-01T09:20:00Z",
+				"is_read": true,
+				"milestone_id": "ms001"
+			},
+			{
+				"id": "msg003",
+				"chat_id": "chat001",
+				"sender_id": "client123",
+				"content": "Great. Please prioritize product listing and cart functionality first.",
+				"type": "text",
+				"created_at": "2025-05-05T10:00:00Z",
+				"is_read": false,
+				"milestone_id": "ms001"
+			}
+		]
+	},
+	{
+		"chat_id": "chat002",
+		"project_id": "prj001",
+		"participants": ["client123", "frlM5xTn7"],
+		"created_at": "2025-05-28T14:00:00Z",
+		"updated_at": "2025-06-14T16:40:00Z",
+		"is_group": false,
+		"messages": [
+			{
+				"id": "msg004",
+				"chat_id": "chat002",
+				"sender_id": "client123",
+				"content": "David, we’ll need database schema and authentication ready by early June.",
+				"type": "text",
+				"created_at": "2025-05-28T14:10:00Z",
+				"is_read": true,
+				"milestone_id": "ms002"
+			},
+			{
+				"id": "msg005",
+				"chat_id": "chat002",
+				"sender_id": "frlM5xTn7",
+				"content": "Understood. Schema will be finalized by May 30, then I’ll move to auth & product endpoints.",
+				"type": "text",
+				"created_at": "2025-05-29T09:15:00Z",
+				"is_read": true,
+				"milestone_id": "ms002"
+			},
+			{
+				"id": "msg006",
+				"chat_id": "chat002",
+				"sender_id": "client123",
+				"content": "Perfect. Let’s also prepare for payment gateway integration before June 12.",
+				"type": "text",
+				"created_at": "2025-06-01T11:00:00Z",
+				"is_read": true,
+				"milestone_id": "ms002"
+			}
+		]
+	},
+	{
+		"chat_id": "chat003",
+		"project_id": "prj002",
+		"participants": ["client123", "frlQ7nDs6"],
+		"created_at": "2025-05-15T10:30:00Z",
+		"updated_at": "2025-06-03T19:00:00Z",
+		"is_group": false,
+		"messages": [
+			{
+				"id": "msg007",
+				"chat_id": "chat003",
+				"sender_id": "client123",
+				"content": "Hi Liam, you’ll handle the frontend module for the fitness app. Can you confirm?",
+				"type": "text",
+				"created_at": "2025-05-15T10:35:00Z",
+				"is_read": true,
+				"milestone_id": "ms008"
+			},
+			{
+				"id": "msg008",
+				"chat_id": "chat003",
+				"sender_id": "frlQ7nDs6",
+				"content": "Confirmed. I’ll start with navigation flow and dashboards first.",
+				"type": "text",
+				"created_at": "2025-05-15T10:50:00Z",
+				"is_read": true,
+				"milestone_id": "ms008"
+			},
+			{
+				"id": "msg009",
+				"chat_id": "chat003",
+				"sender_id": "client123",
+				"content": "Thanks. Please ensure the tracker UI matches Maria’s design specs.",
+				"type": "text",
+				"created_at": "2025-05-20T09:00:00Z",
+				"is_read": true,
+				"milestone_id": "ms008"
+			}
+		]
+	},
+	{
+		"chat_id": "chat004",
+		"project_id": "prj002",
+		"participants": ["client123", "frlN3yGq8"],
+		"created_at": "2025-07-18T09:30:00Z",
+		"updated_at": "2025-07-29T20:00:00Z",
+		"is_group": false,
+		"messages": [
+			{
+				"id": "msg010",
+				"chat_id": "chat004",
+				"sender_id": "client123",
+				"content": "Ethan, you’ll be integrating analytics into the fitness app. Do you need sample datasets?",
+				"type": "text",
+				"created_at": "2025-07-18T09:40:00Z",
+				"is_read": true,
+				"milestone_id": "ms012"
+			},
+			{
+				"id": "msg011",
+				"chat_id": "chat004",
+				"sender_id": "frlN3yGq8",
+				"content": "Yes, that would be helpful. I’ll also prepare GDPR compliance documentation.",
+				"type": "text",
+				"created_at": "2025-07-20T13:00:00Z",
+				"is_read": true,
+				"milestone_id": "ms012"
+			}
+		]
+	}
+]

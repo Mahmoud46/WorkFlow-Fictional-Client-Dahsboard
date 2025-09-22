@@ -1,0 +1,1083 @@
+{
+	"freelancers": [
+		{
+			"freelancer_id": "frlZ8pQk1",
+			"name": "Alice Johnson",
+			"role": "Frontend Developer",
+			"email": "alice.johnson.dev@gmail.com",
+			"hourly_rate": 35,
+			"skills": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"React",
+				"TailwindCSS",
+				"Responsive Design"
+			],
+			"location": "New York, USA",
+			"profile_pic": "/profile_pics/alice_johnson.jpg",
+			"description": "Frontend specialist crafting responsive, user-friendly interfaces with a strong eye for detail and performance optimization.",
+			"rating": 4.7,
+			"total_votes": 120,
+			"total_projects_participated": 18,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/alice-johnson",
+					"prefix": "alicejohnson"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/alicejohnson",
+					"prefix": "alicejohnson"
+				},
+				{
+					"platform": "Dribbble",
+					"link": "https://dribbble.com/alicejohnson",
+					"prefix": "alicejohnson"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://alicejohnson.dev",
+					"prefix": "alicejohnson"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlM5xTn7",
+			"name": "David Kim",
+			"role": "Backend Developer",
+			"email": "david.kim.codes@outlook.com",
+			"hourly_rate": 40,
+			"skills": [
+				"Node.js",
+				"Express",
+				"MongoDB",
+				"SQL",
+				"REST APIs",
+				"Authentication"
+			],
+			"location": "Toronto, Canada",
+			"profile_pic": "/profile_pics/david_kim.jpg",
+			"description": "Backend developer focusing on building secure, scalable APIs and robust server-side applications.",
+			"rating": 4.5,
+			"total_votes": 95,
+			"total_projects_participated": 22,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/david-kim",
+					"prefix": "davidkim"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/davidkim",
+					"prefix": "davidkim"
+				},
+				{
+					"platform": "Stack Overflow",
+					"link": "https://stackoverflow.com/users/david-kim",
+					"prefix": "davidkim"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://davidkim.dev/blog",
+					"prefix": "davidkim"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlH9cLq4",
+			"name": "Maria Lopez",
+			"role": "UI/UX Designer",
+			"email": "maria.lopez.designs@yahoo.com",
+			"hourly_rate": 30,
+			"skills": [
+				"Figma",
+				"Adobe XD",
+				"Wireframing",
+				"Prototyping",
+				"User Research",
+				"Interaction Design"
+			],
+			"location": "Madrid, Spain",
+			"profile_pic": "/profile_pics/maria_lopez.jpg",
+			"description": "Creative UI/UX designer specializing in wireframing, prototyping, and creating intuitive user experiences.",
+			"rating": 4.8,
+			"total_votes": 150,
+			"total_projects_participated": 25,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/maria-lopez",
+					"prefix": "marialopez"
+				},
+				{
+					"platform": "Behance",
+					"link": "https://behance.net/marialopez",
+					"prefix": "marialopez"
+				},
+				{
+					"platform": "Dribbble",
+					"link": "https://dribbble.com/marialopez",
+					"prefix": "marialopez"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://marialopez.design",
+					"prefix": "marialopez"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlQ7nDs6",
+			"name": "Liam Brown",
+			"role": "Fullstack Developer",
+			"email": "liam.brown.dev@gmail.com",
+			"hourly_rate": 45,
+			"skills": [
+				"Vue.js",
+				"Node.js",
+				"Firebase",
+				"JavaScript",
+				"HTML/CSS",
+				"REST APIs"
+			],
+			"location": "London, UK",
+			"profile_pic": "/profile_pics/liam_brown.jpg",
+			"description": "Fullstack engineer experienced in building web apps end-to-end, from backend APIs to modern frontends.",
+			"rating": 4.6,
+			"total_votes": 110,
+			"total_projects_participated": 20,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/liam-brown",
+					"prefix": "liambrown"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/liambrown",
+					"prefix": "liambrown"
+				},
+				{
+					"platform": "Twitter (X)",
+					"link": "https://twitter.com/liambrown",
+					"prefix": "liambrown"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://liambrown.dev",
+					"prefix": "liambrown"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlT2jVp9",
+			"name": "Sophia Chen",
+			"role": "Mobile Developer",
+			"email": "sophia.chen.apps@gmail.com",
+			"hourly_rate": 38,
+			"skills": [
+				"Flutter",
+				"Dart",
+				"Kotlin",
+				"Swift",
+				"iOS Development",
+				"Android Development"
+			],
+			"location": "Singapore",
+			"profile_pic": "/profile_pics/sophia_chen.jpg",
+			"description": "Mobile developer specializing in cross-platform apps with Flutter, and native Android/iOS development.",
+			"rating": 4.9,
+			"total_votes": 200,
+			"total_projects_participated": 30,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/sophia-chen",
+					"prefix": "sophiachen"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/sophiachen",
+					"prefix": "sophiachen"
+				},
+				{
+					"platform": "Stack Overflow",
+					"link": "https://stackoverflow.com/users/sophia-chen",
+					"prefix": "sophiachen"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlN3yGq8",
+			"name": "Ethan Walker",
+			"role": "Data Scientist",
+			"email": "ethan.walker.ds@protonmail.com",
+			"hourly_rate": 50,
+			"skills": [
+				"Python",
+				"TensorFlow",
+				"Pandas",
+				"NumPy",
+				"Data Analysis",
+				"Machine Learning"
+			],
+			"location": "San Francisco, USA",
+			"profile_pic": "/profile_pics/ethan_walker.jpg",
+			"description": "Data scientist experienced in machine learning, data visualization, and predictive analytics.",
+			"rating": 4.7,
+			"total_votes": 140,
+			"total_projects_participated": 28,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/ethan-walker",
+					"prefix": "ethanwalker"
+				},
+				{
+					"platform": "Kaggle",
+					"link": "https://kaggle.com/ethanwalker",
+					"prefix": "ethanwalker"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/ethanwalker",
+					"prefix": "ethanwalker"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://ethanwalker.ai/blog",
+					"prefix": "ethanwalker"
+				}
+			]
+		},
+
+		{
+			"freelancer_id": "frlC1pKs2",
+			"name": "Olivia Martin",
+			"role": "Content Writer",
+			"email": "olivia.martin.writer@gmail.com",
+			"hourly_rate": 25,
+			"skills": [
+				"SEO",
+				"Copywriting",
+				"Blogging",
+				"Content Strategy",
+				"Proofreading"
+			],
+			"location": "Sydney, Australia",
+			"profile_pic": "/profile_pics/olivia_martin.jpg",
+			"description": "Content writer skilled in crafting engaging blogs, SEO-driven articles, and compelling web copy.",
+			"rating": 4.4,
+			"total_votes": 80,
+			"total_projects_participated": 15,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/olivia-martin",
+					"prefix": "oliviamartin"
+				},
+				{
+					"platform": "Medium",
+					"link": "https://medium.com/@oliviamartin",
+					"prefix": "oliviamartin"
+				},
+				{
+					"platform": "Twitter (X)",
+					"link": "https://twitter.com/oliviamartin",
+					"prefix": "oliviamartin"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://oliviamartinwrites.com",
+					"prefix": "oliviamartin"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlK6rTy3",
+			"name": "James Anderson",
+			"role": "DevOps Engineer",
+			"email": "j.anderson.devops@outlook.com",
+			"hourly_rate": 48,
+			"skills": ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"],
+			"location": "Berlin, Germany",
+			"profile_pic": "/profile_pics/james_anderson.jpg",
+			"description": "DevOps engineer with expertise in cloud deployments, CI/CD pipelines, and container orchestration.",
+			"rating": 4.6,
+			"total_votes": 105,
+			"total_projects_participated": 21,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/james-anderson",
+					"prefix": "jamesanderson"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/jamesanderson",
+					"prefix": "jamesanderson"
+				},
+				{
+					"platform": "Stack Overflow",
+					"link": "https://stackoverflow.com/users/james-anderson",
+					"prefix": "jamesanderson"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://jamesanderson.dev/blog",
+					"prefix": "jamesanderson"
+				}
+			]
+		},
+
+		{
+			"freelancer_id": "frlP9wDv5",
+			"name": "Emma Thompson",
+			"role": "Digital Marketer",
+			"email": "emma.thompson.marketing@gmail.com",
+			"hourly_rate": 28,
+			"skills": [
+				"SEO",
+				"Google Ads",
+				"Social Media Marketing",
+				"Content Strategy",
+				"Email Marketing"
+			],
+			"location": "Manchester, UK",
+			"profile_pic": "/profile_pics/emma_thompson.jpg",
+			"description": "Digital marketer focused on SEO strategy, paid ads, and social media campaigns to grow online presence.",
+			"rating": 4.5,
+			"total_votes": 90,
+			"total_projects_participated": 19,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/emma-thompson",
+					"prefix": "emmathompson"
+				},
+				{
+					"platform": "Twitter (X)",
+					"link": "https://twitter.com/emmathompson",
+					"prefix": "emmathompson"
+				},
+				{
+					"platform": "Website",
+					"link": "https://emmathompsonmarketing.com",
+					"prefix": "emmathompson"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlR5eBn1",
+			"name": "Noah White",
+			"role": "Game Developer",
+			"email": "noah.white.gamedev@yahoo.com",
+			"hourly_rate": 42,
+			"skills": [
+				"Unity",
+				"C#",
+				"Blender",
+				"3D Modeling",
+				"Gameplay Programming",
+				"Physics Simulation"
+			],
+			"location": "Austin, USA",
+			"profile_pic": "/profile_pics/noah_white.jpg",
+			"description": "Game developer experienced in building 2D/3D games, gameplay mechanics, and immersive experiences.",
+			"rating": 4.7,
+			"total_votes": 130,
+			"total_projects_participated": 26,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/noah-white",
+					"prefix": "noahwhite"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/noahwhite",
+					"prefix": "noahwhite"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://noahwhitegames.com",
+					"prefix": "noahwhite"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlW7fLz9",
+			"name": "Isabella Rossi",
+			"role": "Graphic Designer",
+			"email": "isabella.rossi.designs@gmail.com",
+			"hourly_rate": 32,
+			"skills": [
+				"Photoshop",
+				"Illustrator",
+				"Branding",
+				"Typography",
+				"Layout Design",
+				"Visual Identity"
+			],
+			"location": "Milan, Italy",
+			"profile_pic": "/profile_pics/isabella_rossi.jpg",
+			"description": "Graphic designer passionate about creating unique brand identities and visually compelling assets.",
+			"rating": 4.8,
+			"total_votes": 145,
+			"total_projects_participated": 23,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/isabella-rossi",
+					"prefix": "isabellarossi"
+				},
+				{
+					"platform": "Behance",
+					"link": "https://behance.net/isabellarossi",
+					"prefix": "isabellarossi"
+				},
+				{
+					"platform": "Dribbble",
+					"link": "https://dribbble.com/isabellarossi",
+					"prefix": "isabellarossi"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://isabellarossi.design",
+					"prefix": "isabellarossi"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlX4mJp6",
+			"name": "Lucas Müller",
+			"role": "AI Engineer",
+			"email": "lucas.mueller.ai@outlook.com",
+			"hourly_rate": 55,
+			"skills": [
+				"PyTorch",
+				"NLP",
+				"Deep Learning",
+				"Computer Vision",
+				"Machine Learning Pipelines"
+			],
+			"location": "Munich, Germany",
+			"profile_pic": "/profile_pics/lucas_müller.jpg",
+			"description": "AI engineer specializing in NLP, neural networks, and production-ready AI solutions.",
+			"rating": 4.9,
+			"total_votes": 170,
+			"total_projects_participated": 34,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/lucas-mueller",
+					"prefix": "lucasmueller"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/lucasmueller",
+					"prefix": "lucasmueller"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://lucasmueller.ai/blog",
+					"prefix": "lucasmueller"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlD8qNh2",
+			"name": "Hannah Wilson",
+			"role": "Project Manager",
+			"email": "hannah.wilson.pm@gmail.com",
+			"hourly_rate": 45,
+			"skills": [
+				"Agile",
+				"Scrum",
+				"Jira",
+				"Project Planning",
+				"Team Leadership",
+				"Risk Management"
+			],
+			"location": "Vancouver, Canada",
+			"profile_pic": "/profile_pics/hannah_wilson.jpg",
+			"description": "Project manager experienced in leading distributed teams, Agile workflows, and project delivery.",
+			"rating": 4.6,
+			"total_votes": 100,
+			"total_projects_participated": 21,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/hannah-wilson",
+					"prefix": "hannahwilson"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlU2zJt4",
+			"name": "Mateo Garcia",
+			"role": "Frontend Developer",
+			"email": "mateo.garcia.dev@yahoo.com",
+			"hourly_rate": 34,
+			"skills": [
+				"Angular",
+				"TypeScript",
+				"Sass",
+				"HTML/CSS",
+				"Responsive Design",
+				"Cross-Browser Compatibility"
+			],
+			"location": "Buenos Aires, Argentina",
+			"profile_pic": "/profile_pics/mateo_garcia.jpg",
+			"description": "Frontend developer building responsive, accessible web applications with modern frameworks.",
+			"rating": 4.5,
+			"total_votes": 85,
+			"total_projects_participated": 17,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/mateo-garcia",
+					"prefix": "mateogarcia"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/mateogarcia",
+					"prefix": "mateogarcia"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://mateogarcia.dev",
+					"prefix": "mateogarcia"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlY9bTw3",
+			"name": "Chloe Dubois",
+			"role": "UI Designer",
+			"email": "chloe.dubois.ui@protonmail.com",
+			"hourly_rate": 29,
+			"skills": [
+				"Sketch",
+				"Figma",
+				"Design Systems",
+				"User Flows",
+				"Prototyping",
+				"Interface Design"
+			],
+			"location": "Paris, France",
+			"profile_pic": "/profile_pics/chloe_dubois.jpg",
+			"description": "UI designer creating clean, modern interfaces with focus on usability and consistency.",
+			"rating": 4.7,
+			"total_votes": 115,
+			"total_projects_participated": 20,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/chloe-dubois",
+					"prefix": "chloedubois"
+				},
+				{
+					"platform": "Dribbble",
+					"link": "https://dribbble.com/chloedubois",
+					"prefix": "chloedubois"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://chloedubois.design",
+					"prefix": "chloedubois"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlB3cGm7",
+			"name": "Daniel Evans",
+			"role": "Cybersecurity Specialist",
+			"email": "daniel.evans.cyber@gmail.com",
+			"hourly_rate": 52,
+			"skills": [
+				"Penetration Testing",
+				"Network Security",
+				"Encryption",
+				"Vulnerability Assessment",
+				"SIEM"
+			],
+			"location": "Dublin, Ireland",
+			"profile_pic": "/profile_pics/daniel_evans.jpg",
+			"description": "Cybersecurity expert specializing in securing systems, penetration testing, and incident response.",
+			"rating": 4.8,
+			"total_votes": 160,
+			"total_projects_participated": 29,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/daniel-evans",
+					"prefix": "danielevans"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/danielevans",
+					"prefix": "danielevans"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://danielevanscyber.com/blog",
+					"prefix": "danielevans"
+				}
+			]
+		},
+
+		{
+			"freelancer_id": "frlJ6vHq2",
+			"name": "Mia Patel",
+			"role": "QA Engineer",
+			"email": "mia.patel.qa@outlook.com",
+			"hourly_rate": 33,
+			"skills": [
+				"Selenium",
+				"Cypress",
+				"Automated Testing",
+				"Test Planning",
+				"Bug Tracking"
+			],
+			"location": "Mumbai, India",
+			"profile_pic": "/profile_pics/mia_patel.jpg",
+			"description": "QA engineer ensuring product quality through automated testing frameworks and manual testing.",
+			"rating": 4.6,
+			"total_votes": 95,
+			"total_projects_participated": 19,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/mia-patel",
+					"prefix": "miapatel"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/miapatel",
+					"prefix": "miapatel"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://miapatelqa.com",
+					"prefix": "miapatel"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlS8nWp5",
+			"name": "Jack Robinson",
+			"role": "Blockchain Developer",
+			"email": "jack.robinson.blockchain@gmail.com",
+			"hourly_rate": 60,
+			"skills": [
+				"Solidity",
+				"Ethereum",
+				"Smart Contracts",
+				"Web3.js",
+				"DApps Development"
+			],
+			"location": "San Jose, USA",
+			"profile_pic": "/profile_pics/jack_robinson.jpg",
+			"description": "Blockchain developer building decentralized applications and secure smart contracts.",
+			"rating": 4.8,
+			"total_votes": 140,
+			"total_projects_participated": 26,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/jack-robinson",
+					"prefix": "jackrobinson"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/jackrobinson",
+					"prefix": "jackrobinson"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://jackrobinson.dev",
+					"prefix": "jackrobinson"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlF5kNr1",
+			"name": "Ava Taylor",
+			"role": "Marketing Strategist",
+			"email": "ava.taylor.marketing@yahoo.com",
+			"hourly_rate": 36,
+			"skills": [
+				"Brand Strategy",
+				"Market Research",
+				"Campaign Management",
+				"Competitive Analysis",
+				"Go-to-Market Planning"
+			],
+			"location": "Los Angeles, USA",
+			"profile_pic": "/profile_pics/ava_taylor.jpg",
+			"description": "Marketing strategist with a focus on brand building, targeted campaigns, and growth strategies.",
+			"rating": 4.5,
+			"total_votes": 88,
+			"total_projects_participated": 18,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/ava-taylor",
+					"prefix": "avataylor"
+				},
+				{
+					"platform": "Twitter (X)",
+					"link": "https://twitter.com/avataylor",
+					"prefix": "avataylor"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://avataylorstrategy.com",
+					"prefix": "avataylor"
+				}
+			]
+		},
+		{
+			"freelancer_id": "frlL7hQm8",
+			"name": "William Scott",
+			"role": "Cloud Architect",
+			"email": "william.scott.cloud@outlook.com",
+			"hourly_rate": 58,
+			"skills": [
+				"Azure",
+				"AWS",
+				"GCP",
+				"Cloud Architecture",
+				"Microservices",
+				"Infrastructure as Code"
+			],
+			"location": "Edinburgh, UK",
+			"profile_pic": "/profile_pics/william_scott.jpg",
+			"description": "Cloud architect designing scalable cloud infrastructures and migration strategies.",
+			"rating": 4.7,
+			"total_votes": 120,
+			"total_projects_participated": 24,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/william-scott",
+					"prefix": "williamscott"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/williamscott",
+					"prefix": "williamscott"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://cloudbywilliam.com",
+					"prefix": "williamscott"
+				}
+			]
+		},
+		{
+			"freelancer_id": "n9X4LdAqK7T2hYfRp0z1j",
+			"name": "Amina Khaled",
+			"role": "AI Research Scientist",
+			"email": "amina.khaled.ai@outlook.com",
+			"hourly_rate": 85,
+			"skills": [
+				"Machine Learning",
+				"Natural Language Processing",
+				"Healthcare AI",
+				"Python",
+				"TensorFlow"
+			],
+			"location": "Cairo, Egypt",
+			"profile_pic": "/profile_pics/amina_khaled.jpg",
+			"description": "AI researcher specializing in natural language processing for medical applications with over 7 years of experience in healthcare AI.",
+			"rating": 4.9,
+			"total_votes": 175,
+			"total_projects_participated": 31,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/amina-khaled",
+					"prefix": "aminakhaled"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/aminakhaled",
+					"prefix": "aminakhaled"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://aminakhaledai.com",
+					"prefix": "aminakhaled"
+				}
+			]
+		},
+		{
+			"freelancer_id": "a7FkDqWlM5rZ0p2YbXsT9",
+			"name": "Daniel Wong",
+			"role": "Full Stack Developer",
+			"email": "daniel.wong.dev@gmail.com",
+			"hourly_rate": 70,
+			"skills": ["React", "Node.js", "TypeScript", "MongoDB", "REST APIs"],
+			"location": "Singapore",
+			"profile_pic": "/profile_pics/daniel_wong.jpg",
+			"description": "Full stack developer with extensive experience building scalable backend systems and chatbots for healthcare startups.",
+			"rating": 4.8,
+			"total_votes": 150,
+			"total_projects_participated": 28,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/daniel-wong",
+					"prefix": "danielwong"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/danielwong",
+					"prefix": "danielwong"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://danielwong.dev",
+					"prefix": "danielwong"
+				}
+			]
+		},
+		{
+			"freelancer_id": "ZpL8dV2wXj3kTrMnQ5yUo",
+			"name": "Noor Al-Suwaidi",
+			"role": "UX/UI Designer",
+			"email": "noor.suwaidi.design@yahoo.com",
+			"hourly_rate": 60,
+			"skills": ["Figma", "Adobe XD", "User Research", "Healthcare UX"],
+			"location": "Dubai, UAE",
+			"profile_pic": "/profile_pics/noor_al_suwaidi.jpg",
+			"description": "UX designer passionate about creating intuitive digital health experiences with a focus on accessibility and patient engagement.",
+			"rating": 4.6,
+			"total_votes": 100,
+			"total_projects_participated": 20,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/noor-alsuwaidi",
+					"prefix": "nooralsuwaidi"
+				},
+				{
+					"platform": "Dribbble",
+					"link": "https://dribbble.com/nooralsuwaidi",
+					"prefix": "nooralsuwaidi"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://noordesigns.com",
+					"prefix": "nooralsuwaidi"
+				}
+			]
+		},
+		{
+			"freelancer_id": "kQ3vNyR8TgB2mL1sXw5uJ",
+			"name": "Minho Park",
+			"role": "Data Engineer",
+			"email": "minho.park.data@protonmail.com",
+			"hourly_rate": 75,
+			"skills": [
+				"ETL Pipelines",
+				"SQL",
+				"Apache Spark",
+				"Cloud Architecture",
+				"Data Security"
+			],
+			"location": "Seoul, South Korea",
+			"profile_pic": "/profile_pics/minho_park.jpg",
+			"description": "Data engineer experienced in building secure pipelines for healthcare data integration and ensuring compliance with HIPAA standards.",
+			"rating": 4.7,
+			"total_votes": 135,
+			"total_projects_participated": 25,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/minho-park",
+					"prefix": "minhopark"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/minhopark",
+					"prefix": "minhopark"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://minhoparkdata.com",
+					"prefix": "minhopark"
+				}
+			]
+		},
+		{
+			"freelancer_id": "sT9zLp2vQmX7aJ5nRb0Yf",
+			"name": "Giulia Bianchi",
+			"role": "VR Developer",
+			"email": "giulia.bianchi.vr@icloud.com",
+			"hourly_rate": 95,
+			"skills": ["Unity3D", "C#", "VR Simulation", "3D Modeling"],
+			"location": "Milan, Italy",
+			"profile_pic": "/profile_pics/giulia_bianchi.jpg",
+			"description": "VR developer with 6 years of experience building immersive training simulators for industrial and educational applications.",
+			"rating": 4.9,
+			"total_votes": 160,
+			"total_projects_participated": 29,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/giulia-bianchi",
+					"prefix": "giuliabianchi"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/giuliabianchi",
+					"prefix": "giuliabianchi"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://giuliavrdev.com",
+					"prefix": "giuliabianchi"
+				}
+			]
+		},
+
+		{
+			"freelancer_id": "fH6xUz3pLoK9yV2tQb1Wc",
+			"name": "Liam Murphy",
+			"role": "3D Artist",
+			"email": "liam.murphy.art@gmail.com",
+			"hourly_rate": 65,
+			"hourly_rate_icon": "MdOutlineAttachMoney",
+			"skills": ["Blender", "Maya", "Texturing", "Animation", "VR Assets"],
+			"location": "Dublin, Ireland",
+			"location_icon": "MdLocationOn",
+			"profile_pic": "/profile_pics/liam_murphy.jpg",
+			"description": "Creative 3D artist specializing in immersive VR environments and realistic training modules for enterprise clients.",
+			"rating": 4.8,
+			"total_votes": 132,
+			"total_projects_participated": 47,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/liam-murphy",
+					"prefix": "liammurphy"
+				},
+				{
+					"platform": "ArtStation",
+					"link": "https://artstation.com/liammurphy",
+					"prefix": "liammurphy"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://liammurphy3d.com",
+					"prefix": "liammurphy"
+				}
+			]
+		},
+		{
+			"freelancer_id": "jR2oMz8xWpB5vF6nKt9Yu",
+			"name": "Salma Benali",
+			"role": "Instructional Designer",
+			"email": "salma.benali.edu@hotmail.com",
+			"hourly_rate": 55,
+			"hourly_rate_icon": "MdOutlineAttachMoney",
+			"skills": [
+				"Learning Design",
+				"Curriculum Development",
+				"VR Pedagogy",
+				"Gamification"
+			],
+			"location": "Casablanca, Morocco",
+			"location_icon": "MdLocationOn",
+			"profile_pic": "/profile_pics/salma_benali.jpg",
+			"description": "Instructional designer focused on designing engaging VR training curricula tailored for workforce development and education.",
+			"rating": 4.6,
+			"total_votes": 98,
+			"total_projects_participated": 39,
+			"is_online": false,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/salma-benali",
+					"prefix": "salmabenali"
+				},
+				{
+					"platform": "Medium",
+					"link": "https://medium.com/@salmabenali",
+					"prefix": "salmabenali"
+				},
+				{
+					"platform": "Blog",
+					"link": "https://salmabenali-learning.com",
+					"prefix": "salmabenali"
+				}
+			]
+		},
+		{
+			"freelancer_id": "pN7yWt4rXkJ0qB2mVs6Zf",
+			"name": "Jonas Weber",
+			"role": "Backend Developer",
+			"email": "jonas.weber.backend@gmail.com",
+			"hourly_rate": 80,
+			"hourly_rate_icon": "MdOutlineAttachMoney",
+			"skills": ["Node.js", "GraphQL", "AWS", "Scalable APIs"],
+			"location": "Berlin, Germany",
+			"location_icon": "MdLocationOn",
+			"profile_pic": "/profile_pics/jonas_weber.jpg",
+			"description": "Backend developer with strong expertise in cloud services and API development for VR platforms and real-time systems.",
+			"rating": 4.9,
+			"total_votes": 156,
+			"total_projects_participated": 52,
+			"is_online": true,
+			"social_media": [
+				{
+					"platform": "LinkedIn",
+					"link": "https://linkedin.com/in/jonas-weber",
+					"prefix": "jonasweber"
+				},
+				{
+					"platform": "GitHub",
+					"link": "https://github.com/jonasweber",
+					"prefix": "jonasweber"
+				},
+				{
+					"platform": "Portfolio",
+					"link": "https://jonasweber.dev",
+					"prefix": "jonasweber"
+				}
+			]
+		}
+	]
+}

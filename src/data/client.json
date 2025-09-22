@@ -1,0 +1,98 @@
+{
+	"client_id": "client123",
+	"email": "contact@riyadhtech.com",
+	"password": "hT$8pQw9!sL3xZa7Vb6@nR2",
+	"account_status": "Verified",
+
+	"role": "Founder & Project Manager",
+	"phone_number": "(+966) 55 123 4567",
+	"profile_pic": "/profile_pics/omar_al_fahad.jpg",
+	"name": "Omar Al-Fahad",
+	"company": "Riyadh Tech Solutions",
+	"location": "Riyadh, Saudi Arabia",
+	"bio": "Tech entrepreneur and project manager leading innovative software and AI projects in Saudi Arabia.",
+	"website": "https://riyadhtech.com",
+	"languages_spoken": ["Arabic", "English"],
+	"timezone": "Asia/Riyadh",
+
+	"reviews_and_feedback": [
+		{
+			"freelancer_id": "frlZ8pQk1",
+			"freelancer_name": "Alice Johnson",
+			"rating": 5,
+			"comment": "Outstanding frontend work with attention to detail."
+		},
+		{
+			"freelancer_id": "frlM5xTn7",
+			"freelancer_name": "David Kim",
+			"rating": 4,
+			"comment": "Backend APIs were well-structured and secure."
+		},
+		{
+			"freelancer_id": "frlH9cLq4",
+			"freelancer_name": "Maria Lopez",
+			"rating": 5,
+			"comment": "Creative UI/UX design and smooth prototypes."
+		},
+		{
+			"freelancer_id": "frlQ7nDs6",
+			"freelancer_name": "Liam Brown",
+			"rating": 4,
+			"comment": "Fullstack integration went smoothly."
+		},
+		{
+			"freelancer_id": "frlT2jVp9",
+			"freelancer_name": "Sophia Chen",
+			"rating": 5,
+			"comment": "Excellent mobile app performance and responsiveness."
+		},
+		{
+			"freelancer_id": "frlN3yGq8",
+			"freelancer_name": "Ethan Walker",
+			"rating": 5,
+			"comment": "Data analysis and predictive models were insightful."
+		},
+		{
+			"freelancer_id": "frlC1pKs2",
+			"freelancer_name": "Olivia Martin",
+			"rating": 4,
+			"comment": "Content writing was clear, concise, and SEO-friendly."
+		},
+		{
+			"freelancer_id": "frlK6rTy3",
+			"freelancer_name": "James Anderson",
+			"rating": 5,
+			"comment": "DevOps pipeline setup was robust and reliable."
+		},
+		{
+			"freelancer_id": "frlP9wDv5",
+			"freelancer_name": "Emma Thompson",
+			"rating": 4,
+			"comment": "Digital marketing campaigns were effective."
+		},
+		{
+			"freelancer_id": "frlR5eBn1",
+			"freelancer_name": "Noah White",
+			"rating": 5,
+			"comment": "Game development met high quality standards."
+		},
+		{
+			"freelancer_id": "frlW7fLz9",
+			"freelancer_name": "Isabella Rossi",
+			"rating": 4,
+			"comment": "Graphic design was visually appealing and professional."
+		},
+		{
+			"freelancer_id": "frlX4mJp6",
+			"freelancer_name": "Lucas Müller",
+			"rating": 5,
+			"comment": "AI solutions were precise and production-ready."
+		}
+	],
+
+	"account_settings": {
+		"two_factor_auth": true,
+		"privacy_settings": { "profile_visible_to": "Freelancers Only" },
+		"notification_settings": { "email": true, "platform": true }
+	}
+}
