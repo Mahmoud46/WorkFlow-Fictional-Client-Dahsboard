@@ -8,12 +8,14 @@ body {
 	background: url("./assets/bg.webp") no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .light body {
 	background: url("./assets/light-bg.webp") no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #root {
