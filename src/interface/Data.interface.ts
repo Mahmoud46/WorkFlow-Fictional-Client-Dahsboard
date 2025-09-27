@@ -162,6 +162,26 @@ export interface IMessage {
 	is_read: boolean;
 }
 
+export interface IClientPost {
+	post_id: string; // Unique identifier for the post
+	client_id: string; // ID of the client who posted
+	title: string; // Title of the project/job
+	subtitle: string;
+	description: string; // Detailed description of the work
+	budget: {
+		min: number; // Minimum budget
+		max: number; // Maximum budget
+		currency: string; // e.g., "USD", "EUR", "EGP"
+	};
+	skills: string[]; // Required technical skills
+	requirements: string[]; // Other requirements (experience, certifications, etc.)
+	status: "Open" | "Closed"; // Post availability
+	created_at: string; // ISO date string when post was created
+	updated_at?: string; // Optional last updated date
+	deadline?: string; // Optional deadline for the project
+	location_type: "Remote" | "On-site" | "Hybrid"; // Work type
+}
+
 type TCurrency = "USD" | "EUR";
 export type TProjectStatus = "Pending" | "In Progress" | "Completed";
 export type TInvoiceStatus = "Paid" | "Pending";

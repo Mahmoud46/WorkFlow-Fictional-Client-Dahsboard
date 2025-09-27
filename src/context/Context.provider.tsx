@@ -3,6 +3,7 @@ import { Context } from "./Context";
 import type { IContext } from "../interface/Context.interface";
 import type {
 	IChat,
+	IClientPost,
 	IClientProfileView,
 	IFreelancer,
 	IInvoice,
@@ -19,6 +20,7 @@ import proposalsData from "../data/pending_proposals.json";
 import recentActivitiesData from "../data/recent_activity.json";
 import invoicesData from "../data/invoices.json";
 import chatsData from "../data/chats.json";
+import postsData from "../data/job_posts.json";
 //
 import { freelancersController } from "../classes/Freelancers.class";
 import { projectsController } from "../classes/Projects.class";
@@ -27,6 +29,7 @@ import { transactionsController } from "../classes/Transactions.class";
 import { proposalsController } from "../classes/Proposals.class";
 import { profileController } from "../classes/Profile.class";
 import { chatsController } from "../classes/Chats.class";
+import { postsController } from "../classes/Posts.clsass";
 
 export default function ContextProvider({
 	children,
@@ -63,6 +66,7 @@ export default function ContextProvider({
 		invoicesController.init(invoicesData.invoices as IInvoice[]);
 
 		chatsController.init(chatsData as IChat[]);
+		postsController.init(postsData.posts as IClientPost[]);
 	}, []);
 
 	const contextValue: IContext = {
@@ -83,6 +87,7 @@ export default function ContextProvider({
 		freelancersController,
 		proposalsController,
 		chatsController,
+		postsController,
 
 		isChatOpen,
 		setIsChatOpen,

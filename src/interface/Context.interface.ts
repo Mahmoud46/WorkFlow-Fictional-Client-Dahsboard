@@ -12,6 +12,7 @@ import type {
 	ITransaction,
 } from "./Data.interface";
 import type { Chats } from "../classes/Chats.class";
+import type { Posts } from "../classes/Posts.clsass";
 
 export interface IContext {
 	client: IClientProfileView;
@@ -32,6 +33,7 @@ export interface IContext {
 	transactionsController: Transactions;
 	invoicesController: Invoices;
 	freelancersController: Freelancers;
+	postsController: Posts;
 
 	isChatOpen: boolean;
 	setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>>;
