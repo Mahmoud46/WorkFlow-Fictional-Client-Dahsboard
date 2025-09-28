@@ -22,7 +22,7 @@ export default function Home(): ReactNode {
 		<>
 			{projectsController.projects && (
 				<div className="gap-2 glass rounded-2xl flex w-full p-4">
-					<div className="flex max-w-full w-fit flex-col gap-2">
+					<div className="flex flex-1 max-w-full w-fit flex-col gap-2">
 						<h1 className="text-2xl">
 							Welcome back
 							<br />
@@ -81,7 +81,7 @@ export default function Home(): ReactNode {
 							</div>
 						</div>
 					</div>
-					<div className="flex-1 gap-2 hidden xl:flex xl:flex-col">
+					<div className="max-w-[350px] gap-2 flex flex-col flex-none">
 						<NowDateTime />
 						<ProjectsStatusPieChartContainer />
 						<RecentActivitiesContainer />

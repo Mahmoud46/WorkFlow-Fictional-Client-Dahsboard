@@ -6,8 +6,7 @@ import moment from "moment";
 import type { IRecentActivityItem } from "../interface/Data.interface";
 import { getRecentActivities } from "../utils/count";
 import {
-	LuArrowDown,
-	LuArrowUp,
+	LuChevronDown,
 	LuFolderSearch,
 	LuHistory,
 	LuStar,
@@ -25,56 +24,63 @@ export function ActivityCard({
 
 	return (
 		<div className="glass p-2 rounded-2xl flex flex-col items-start gap-2">
-			<div className="flex items-center justify-between gap-3 w-full">
-				<ActivityIcon type={activity.type} className="flex-none text-xl" />
-				<div className="text-sm font-semibold flex-1">
-					<p>{activity.title}</p>
+			<div className="flex items-start justify-between w-full">
+				<div className="p-3 pl-0">
+					<ActivityIcon type={activity.type} className="flex-none text-xl" />
+				</div>
+
+				<div className="text-sm flex-1">
+					<p className="font-semibold">{activity.title}</p>
 					<p className="text-xs opacity-70">
 						{moment(activity.date).fromNow()}
 					</p>
 				</div>
 				<button
-					className="glass p-0.5 rounded-full cursor-pointer"
+					className={`glass p-1 rounded-full cursor-pointer transition duration-300 ml-2 ${
+						isOpen ? "rotate-180" : "rotate-0"
+					}`}
 					onClick={() => setIsOpen((prev) => !prev)}
 				>
-					{isOpen ? <LuArrowUp /> : <LuArrowDown />}
+					<LuChevronDown />
 				</button>
 			</div>
 			{isOpen && (
-				<div className="p-2 rounded-xl overflow-hidden glass w-full text-sm">
-					{activity.details && <p>{activity.details}</p>}
-					{activity.amount && activity.currency && (
-						<p className="text-base font-semibold">
-							<span className="mr-2 text-sm font-normal">Amount:</span>
-							<span className="text-xs font-normal">
-								{currencySymbols[activity.currency]}
-							</span>
-							{activity.amount.toLocaleString("en-US")}
-						</p>
-					)}
-					{activity.rating && (
-						<div className="flex items-center gap-2">
-							<LuStar fill="#fff" />
-							<p className="text-base">{activity.rating}</p>
-						</div>
-					)}
-					<div className="mt-2 flex">
+				<div className="w-full text-sm px-2 pl-8">
+					<div className="pt-2 border-t-1 border-gray-600">
+						{activity.details && <p>{activity.details}</p>}
+						{activity.amount && activity.currency && (
+							<p className="">
+								<span className="mr-2 text-sm font-normal">Amount:</span>
+								<span className="text-xs font-normal">
+									{currencySymbols[activity.currency]}
+								</span>
+								{activity.amount.toLocaleString("en-US")}
+							</p>
+						)}
+						{activity.rating && (
+							<div className="flex items-center gap-2">
+								<LuStar fill="#fff" />
+								<p className="text-base">{activity.rating}</p>
+							</div>
+						)}
+					</div>
+					<div className="mt-2 flex text-xs justify-end">
 						{activity.project_id && (
 							<Link
 								to={`/projects/${activity.project_id}`}
-								className="flex w-fit py-0.5 px-2 items-center gap-1 rounded-full overflow-hidden transition duration-300 hover:bg-white hover:text-gray-950"
+								className="flex w-fit py-1 px-2 items-center gap-1 rounded-full overflow-hidden transition duration-300 hover:bg-white hover:text-gray-950"
 							>
-								<LuFolderSearch />
-								<span>View Project</span>
+								<LuFolderSearch className="text-sm" />
+								<span>View project</span>
 							</Link>
 						)}
 						{activity.freelancer_id && (
 							<Link
 								to={`/freelancers/${activity.freelancer_id}`}
-								className="flex w-fit py-0.5 px-2 items-center gap-1 rounded-full overflow-hidden transition duration-300 hover:bg-white hover:text-gray-950"
+								className="flex w-fit py-1 px-2 items-center gap-1 rounded-full overflow-hidden transition duration-300 hover:bg-white hover:text-gray-950"
 							>
-								<LuUserSearch />
-								<span>View Freelancer</span>
+								<LuUserSearch className="text-sm" />
+								<span>View freelancer</span>
 							</Link>
 						)}
 					</div>

@@ -191,10 +191,12 @@ export function UpComingPendingInvoicesViewTable(): ReactNode {
 										to={`/projects/${invoice.project_id}`}
 										className="flex gap-1 items-center hover:underline text-xs"
 									>
-										{
-											projectsController.indexedProjects[invoice.project_id]
-												.title
-										}
+										<div className="line-clamp-1">
+											{
+												projectsController.indexedProjects[invoice.project_id]
+													.title
+											}
+										</div>
 									</Link>
 								</td>
 								<td className="px-4 py-2 text-xs flex -space-x-3">
